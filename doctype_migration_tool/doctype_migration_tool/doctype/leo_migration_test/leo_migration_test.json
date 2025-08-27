@@ -10,8 +10,7 @@
   "migration_name",
   "status",
   "approver",
-  "approval_date",
-  "test_v3"
+  "approval_date"
  ],
  "fields": [
   {
@@ -47,17 +46,11 @@
    "fieldname": "approval_date",
    "fieldtype": "Date",
    "label": "Approval Date"
-  },
-  {
-   "fieldname": "test_v3",
-   "fieldtype": "Select",
-   "label": "Test V3",
-   "options": "V1\nV2\nV3"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-27 08:04:41.269423",
+ "modified": "2025-08-27 14:05:47.170766",
  "modified_by": "Administrator",
  "module": "Doctype Migration Tool",
  "name": "Leo Migration Test",
