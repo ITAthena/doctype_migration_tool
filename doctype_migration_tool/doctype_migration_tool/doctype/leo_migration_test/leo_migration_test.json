@@ -50,13 +50,14 @@
   },
   {
    "fieldname": "test_v3",
-   "fieldtype": "Data",
-   "label": "Test V3"
+   "fieldtype": "Select",
+   "label": "Test V3",
+   "options": "V1\nV2\nV3"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-23 07:54:30.669891",
+ "modified": "2025-08-27 08:04:41.269423",
  "modified_by": "Administrator",
  "module": "Doctype Migration Tool",
  "name": "Leo Migration Test",
