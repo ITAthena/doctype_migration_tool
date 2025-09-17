@@ -10,7 +10,9 @@
   "migration_name",
   "status",
   "approver",
-  "approval_date"
+  "approval_date",
+  "section_break_csihp",
+  "test_data"
  ],
  "fields": [
   {
@@ -46,11 +48,20 @@
    "fieldname": "approval_date",
    "fieldtype": "Date",
    "label": "Approval Date"
+  },
+  {
+   "fieldname": "section_break_csihp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "test_data",
+   "fieldtype": "Data",
+   "label": "Test Data"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-27 14:05:47.170766",
+ "modified": "2025-09-17 10:37:18.247232",
  "modified_by": "Administrator",
  "module": "Doctype Migration Tool",
  "name": "Leo Migration Test",
