@@ -10,7 +10,8 @@
  "field_order": [
   "naming_series",
   "column_break_aeoos",
-  "data"
+  "date",
+  "select"
  ],
  "fields": [
   {
@@ -24,14 +25,20 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "data",
-   "fieldtype": "Data",
-   "label": "Data"
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Select",
+   "options": "a\nb\nc"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-17 10:38:40.658748",
+ "modified": "2025-09-17 11:22:50.583845",
  "modified_by": "Administrator",
  "module": "Doctype Migration Tool",
  "name": "Test Migration",
